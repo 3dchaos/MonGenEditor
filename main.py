@@ -7,4 +7,5 @@ if __name__ == "__main__":
     app = MonGenUI(root)
     root.mainloop()
 
-#pip install tkinterdnd2    
+#pip install pyinstaller tkinterdnd2
+#pyinstaller --onefile --noconsole --collect-all tkinterdnd2 main.py
